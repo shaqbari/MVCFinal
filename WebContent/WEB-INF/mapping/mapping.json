@@ -1,11 +1,15 @@
 {	
 	"controllerMapping":{
-		"/test.do":"com.mvc.controller.TestController",
-		"/student/regist.do":"com.mvc.controller.student.RegistController"
+		"/test.do":"com.mvc.controller.TestController"
+		, "/student/regist.do":"com.mvc.controller.student.RegistController"
+		, "/student/list.do":"com.mvc.controller.student.ListController"
 	},
 	
 	"viewMapping":{
 		"/test":"/test.jsp"
+		, "result/student/regist":"/student/list.do"
+		, "result/student/error":"/student/error.jsp"
+		, "result/student/list":"/student/list.jsp"
 		
 	}
 	

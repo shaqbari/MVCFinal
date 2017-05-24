@@ -5,7 +5,7 @@
 <mapper namespace="Physical">
 	<insert id="insert" parameterType="Physical">
 		insert into physical(physical_id, student_id, blood, weight)
-		values(seq_physical.nextVal, #{student_id}, blood, weight)
+		values(seq_physical.nextVal, #{student_id}, #{blood}, #{weight})
 	</insert>
 
 </mapper>

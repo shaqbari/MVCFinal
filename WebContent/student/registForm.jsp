@@ -23,7 +23,7 @@
 			<input type="text" name="name" placeholder="이름" />
 			
 			<input type="text" name="blood" placeholder="혈액형">
-			<input type="text" name="weight" placeholder="몸무게" />
+			<input type="text" name="weight" placeholder="몸무게" value="65"/>
 			<input type="button"  value="등록" onclick="regist();"/>
 		</pre>
 	</form>

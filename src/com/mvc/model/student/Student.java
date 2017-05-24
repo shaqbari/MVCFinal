@@ -5,8 +5,14 @@ public class Student {
 	private String id;
 	private String password;
 	private String name;
-	
-	
+	private Physical physical;
+		
+	public Physical getPhysical() {
+		return physical;
+	}
+	public void setPhysical(Physical physical) {
+		this.physical = physical;
+	}
 	public int getStudent_id() {
 		return student_id;
 	}

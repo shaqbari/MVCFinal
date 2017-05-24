@@ -1,0 +1,12 @@
+{	
+	"controllerMapping":{
+		"/test.do":"com.mvc.controller.TestController",
+		"/student/regist.do":"com.mvc.controller.student.RegistController"
+	},
+	
+	"viewMapping":{
+		"/test":"/test.jsp"
+		
+	}
+	
+}
